@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8567001646839522531}
   - component: {fileID: 8250222197370696593}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: UiCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -113,6 +113,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8864967181890277958}
     m_Modifications:
+    - target: {fileID: 834981229732129707, guid: 11396984204e51a48a7b6a3b7e6fc804, type: 3}
+      propertyPath: m_Type
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 834981229732129707, guid: 11396984204e51a48a7b6a3b7e6fc804, type: 3}
+      propertyPath: m_FillAmount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 834981229732129707, guid: 11396984204e51a48a7b6a3b7e6fc804, type: 3}
+      propertyPath: m_FillMethod
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 847989366037162523, guid: 11396984204e51a48a7b6a3b7e6fc804, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -192,6 +204,18 @@ PrefabInstance:
     - target: {fileID: 847989366037162523, guid: 11396984204e51a48a7b6a3b7e6fc804, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1094373351332100559, guid: 11396984204e51a48a7b6a3b7e6fc804, type: 3}
+      propertyPath: m_Color.b
+      value: 0.30588236
+      objectReference: {fileID: 0}
+    - target: {fileID: 1094373351332100559, guid: 11396984204e51a48a7b6a3b7e6fc804, type: 3}
+      propertyPath: m_Color.g
+      value: 0.3137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 1094373351332100559, guid: 11396984204e51a48a7b6a3b7e6fc804, type: 3}
+      propertyPath: m_Color.r
+      value: 0.30764988
       objectReference: {fileID: 0}
     - target: {fileID: 7721964205941105487, guid: 11396984204e51a48a7b6a3b7e6fc804, type: 3}
       propertyPath: m_Name
@@ -320,6 +344,22 @@ PrefabInstance:
     - target: {fileID: 4010752890526768859, guid: cde669abbb5615f418db1814ff4e03d5, type: 3}
       propertyPath: m_Name
       value: AmmunitionBG
+      objectReference: {fileID: 0}
+    - target: {fileID: 4907814158085393643, guid: cde669abbb5615f418db1814ff4e03d5, type: 3}
+      propertyPath: m_Type
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4907814158085393643, guid: cde669abbb5615f418db1814ff4e03d5, type: 3}
+      propertyPath: m_FillAmount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4907814158085393643, guid: cde669abbb5615f418db1814ff4e03d5, type: 3}
+      propertyPath: m_FillMethod
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4907814158085393643, guid: cde669abbb5615f418db1814ff4e03d5, type: 3}
+      propertyPath: m_FillOrigin
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8798913528349997537, guid: cde669abbb5615f418db1814ff4e03d5, type: 3}
       propertyPath: m_Pivot.x
